@@ -6,9 +6,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.util.Random;
+
 @Getter
 @Setter
-@NoArgsConstructor
 @Entity
 @ToString
 public class Workstation {
@@ -22,5 +23,6 @@ public class Workstation {
     @ManyToOne
     @JoinColumn(name = "building_id")
     private Building building;
+
 
 }

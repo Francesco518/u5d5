@@ -5,12 +5,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+import org.springframework.cglib.core.Local;
 
 import java.time.LocalDate;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @Entity
 @ToString
 public class Booking {
@@ -26,4 +26,6 @@ public class Booking {
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
+
+
 }
