@@ -5,6 +5,9 @@ import francescobuonocore.u5d5.entities.Booking;
 import francescobuonocore.u5d5.entities.User;
 import francescobuonocore.u5d5.entities.Workstation;
 import francescobuonocore.u5d5.repositories.BookingDAO;
+import francescobuonocore.u5d5.repositories.UserDAO;
+import francescobuonocore.u5d5.repositories.WorkstationDAO;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

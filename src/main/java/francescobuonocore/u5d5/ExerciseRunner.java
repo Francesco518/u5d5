@@ -9,6 +9,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
+import java.util.Random;
 
 @Component
 public class ExerciseRunner implements CommandLineRunner {
